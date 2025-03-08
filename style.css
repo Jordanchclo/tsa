@@ -1,0 +1,193 @@
+.topnav {
+    background-color: #209f20;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    display: inline-block;
+    z-index: 10;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+}
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+    height: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+li a {
+    display: blocl;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    font-size: 4vh;
+}
+li a:hover {background-color: #108f10;}
+
+.ttl {
+    padding-top: 1%;
+    background-color: #70ff70;
+    width: 40vw;
+}
+.ttl p {
+    font-size: 8vh;
+    color: black;
+    font-family: 'Brush Script MT', cursive;
+    padding-bottom: 30%;
+    padding-top: automatic;
+}
+
+footer {
+    background-color: #057605;
+    height: auto;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 9;
+}
+footer p {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 10px;
+    color: black;
+    font-family: arial;
+}
+
+body {
+    background-image: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+html {scrollbar-color: #208020 #30a030;}
+
+.mainbod {
+    width: 75%;
+    background-color: #70ff70;
+    height: 100%
+}
+
+/* Specific to index file */
+.topdishes p {
+    font-size: 15px;
+    color: black;
+    padding-top: 20px;
+}
+
+.topd {
+    width: 30%;
+    display: inline-block;
+    height: 300px;
+    background-color: #309f30;
+}
+
+
+.mgoal {background-color: #70ff70; width: 75%;}
+.mgoal p {
+    font-family: 'Courier New', monospace;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+img {
+    width: 90%;
+    height: auto;
+    padding: 10px;
+}
+
+/* Specific to menu file */
+
+.menit {
+    width: 100%;
+    display: inline-block;
+    background-color: #25a525;
+}
+
+.menit p {
+    font-size: 18px;
+    color: black;
+}
+
+/* Specific to sources file */
+
+.sra {
+    width: 100%;
+    background-color: #108f10;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.srb {
+    width: 100%;
+    background-color: #70ff70;
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sra p {
+    font-size: 20px;
+    color: black;
+}
+.srb p {
+    font-size: 20px;
+    color: black;
+}
+.sra a {font-size: 20px;}
+.srb b {font-size: 20px;}
+    
+
+@media screen and (max-width: 960px) {
+    .topd {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    body {
+        background-image: none;
+        background-color: #70ff70;
+    }
+    .mainbod {
+        width: 100%;
+    }
+    .menit {
+        width: 80%;
+    }
+    .topd {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    li a {
+        font-size: 4vw;
+    }
+    body {
+        background-color: #70ff70;
+        background-image: none;
+    }
+    .mainbod {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+        /*
+        bottom: 0;
+        top: 7.4vw;
+        position: absolute;
+        */
+        z-index: 8;
+    }
+    
+}
